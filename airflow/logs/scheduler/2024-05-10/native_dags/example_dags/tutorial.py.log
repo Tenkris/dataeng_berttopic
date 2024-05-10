@@ -1,0 +1,67 @@
+[2024-05-10T17:14:37.761+0700] {processor.py:161} INFO - Started process (PID=80773) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-10T17:14:37.761+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-05-10T17:14:37.762+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:37.762+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-10T17:14:37.766+0700] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-10T17:14:37.869+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:37.869+0700] {override.py:1829} INFO - Created Permission View: can edit on DAG:tutorial
+[2024-05-10T17:14:37.873+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:37.873+0700] {override.py:1829} INFO - Created Permission View: can read on DAG:tutorial
+[2024-05-10T17:14:37.876+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:37.876+0700] {override.py:1829} INFO - Created Permission View: can delete on DAG:tutorial
+[2024-05-10T17:14:37.877+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:37.877+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:14:37.881+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:37.881+0700] {dag.py:3118} INFO - Creating ORM DAG for tutorial
+[2024-05-10T17:14:37.885+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:37.885+0700] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-05-09 00:00:00+00:00, run_after=2024-05-10 00:00:00+00:00
+[2024-05-10T17:14:37.894+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.134 seconds
+[2024-05-10T17:16:17.243+0700] {processor.py:161} INFO - Started process (PID=81600) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-10T17:16:17.244+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-05-10T17:16:17.244+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:16:17.244+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-10T17:16:17.249+0700] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-10T17:16:17.307+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:16:17.307+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:16:17.317+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:16:17.317+0700] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-05-09 00:00:00+00:00, run_after=2024-05-10 00:00:00+00:00
+[2024-05-10T17:16:17.326+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.084 seconds
+[2024-05-10T17:17:20.270+0700] {processor.py:161} INFO - Started process (PID=82104) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-10T17:17:20.271+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-05-10T17:17:20.272+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:17:20.272+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-10T17:17:20.277+0700] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-10T17:17:20.338+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:17:20.338+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:17:20.348+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:17:20.348+0700] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-05-09 00:00:00+00:00, run_after=2024-05-10 00:00:00+00:00
+[2024-05-10T17:17:20.358+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.090 seconds
+[2024-05-10T17:18:25.241+0700] {processor.py:161} INFO - Started process (PID=82634) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-10T17:18:25.242+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-05-10T17:18:25.242+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:18:25.242+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-10T17:18:25.247+0700] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-10T17:18:25.307+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:18:25.307+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:18:25.317+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:18:25.317+0700] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-05-09 00:00:00+00:00, run_after=2024-05-10 00:00:00+00:00
+[2024-05-10T17:18:25.325+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.086 seconds
+[2024-05-10T17:19:30.227+0700] {processor.py:161} INFO - Started process (PID=83149) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-10T17:19:30.227+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-05-10T17:19:30.228+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:19:30.228+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-10T17:19:30.233+0700] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-10T17:19:30.294+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:19:30.294+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:19:30.305+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:19:30.304+0700] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-05-09 00:00:00+00:00, run_after=2024-05-10 00:00:00+00:00
+[2024-05-10T17:19:30.314+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.088 seconds
+[2024-05-10T17:20:33.073+0700] {processor.py:161} INFO - Started process (PID=83816) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-10T17:20:33.074+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-05-10T17:20:33.074+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:20:33.074+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-10T17:20:33.079+0700] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-10T17:20:33.139+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:20:33.139+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:20:33.148+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:20:33.148+0700] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-05-09 00:00:00+00:00, run_after=2024-05-10 00:00:00+00:00
+[2024-05-10T17:20:33.157+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.086 seconds
+[2024-05-10T17:21:39.430+0700] {processor.py:161} INFO - Started process (PID=84612) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-10T17:21:39.432+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-05-10T17:21:39.432+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:21:39.432+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-10T17:21:39.437+0700] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-10T17:21:39.495+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:21:39.495+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:21:39.504+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:21:39.504+0700] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-05-09 00:00:00+00:00, run_after=2024-05-10 00:00:00+00:00
+[2024-05-10T17:21:39.513+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.084 seconds
+[2024-05-10T17:22:48.676+0700] {processor.py:161} INFO - Started process (PID=85276) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-10T17:22:48.678+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-05-10T17:22:48.678+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:22:48.678+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-10T17:22:48.683+0700] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-10T17:22:48.740+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:22:48.740+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:22:48.750+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:22:48.750+0700] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-05-09 00:00:00+00:00, run_after=2024-05-10 00:00:00+00:00
+[2024-05-10T17:22:48.759+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.085 seconds
+[2024-05-10T17:28:59.687+0700] {processor.py:161} INFO - Started process (PID=89157) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-10T17:28:59.687+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-05-10T17:28:59.688+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:28:59.688+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-10T17:28:59.694+0700] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-05-10T17:28:59.760+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:28:59.760+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:28:59.771+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:28:59.770+0700] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-05-09 00:00:00+00:00, run_after=2024-05-10 00:00:00+00:00
+[2024-05-10T17:28:59.781+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.096 seconds

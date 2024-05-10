@@ -1,0 +1,32 @@
+[2024-05-10T17:15:17.250+0700] {processor.py:161} INFO - Started process (PID=81128) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-05-10T17:15:17.250+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-05-10T17:15:17.250+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:17.250+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-05-10T17:15:17.273+0700] {processor.py:840} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-05-10T17:15:17.389+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:17.389+0700] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_params_ui_tutorial
+[2024-05-10T17:15:17.394+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:17.394+0700] {override.py:1829} INFO - Created Permission View: can read on DAG:example_params_ui_tutorial
+[2024-05-10T17:15:17.396+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:17.396+0700] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_params_ui_tutorial
+[2024-05-10T17:15:17.396+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:17.396+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:15:17.401+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:17.401+0700] {dag.py:3118} INFO - Creating ORM DAG for example_params_ui_tutorial
+[2024-05-10T17:15:17.401+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:17.401+0700] {dag.py:3954} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-05-10T17:15:17.409+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.160 seconds
+[2024-05-10T17:16:52.201+0700] {processor.py:161} INFO - Started process (PID=81879) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-05-10T17:16:52.203+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-05-10T17:16:52.203+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:16:52.203+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-05-10T17:16:52.225+0700] {processor.py:840} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-05-10T17:16:52.296+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:16:52.296+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:16:52.301+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:16:52.301+0700] {dag.py:3954} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-05-10T17:16:52.310+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.110 seconds
+[2024-05-10T17:19:02.138+0700] {processor.py:161} INFO - Started process (PID=82926) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-05-10T17:19:02.140+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-05-10T17:19:02.141+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:19:02.140+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-05-10T17:19:02.168+0700] {processor.py:840} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-05-10T17:19:02.238+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:19:02.238+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:19:02.243+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:19:02.243+0700] {dag.py:3954} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-05-10T17:19:02.253+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.117 seconds
+[2024-05-10T17:21:11.247+0700] {processor.py:161} INFO - Started process (PID=84141) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-05-10T17:21:11.249+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-05-10T17:21:11.249+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:21:11.249+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-05-10T17:21:11.275+0700] {processor.py:840} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-05-10T17:21:11.348+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:21:11.348+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:21:11.354+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:21:11.354+0700] {dag.py:3954} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-05-10T17:21:11.364+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.119 seconds

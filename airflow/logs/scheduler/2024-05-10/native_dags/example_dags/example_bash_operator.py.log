@@ -1,0 +1,32 @@
+[2024-05-10T17:15:55.589+0700] {processor.py:161} INFO - Started process (PID=81431) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-10T17:15:55.589+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-10T17:15:55.590+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:55.590+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-10T17:15:55.598+0700] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-10T17:15:55.700+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:55.700+0700] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_bash_operator
+[2024-05-10T17:15:55.704+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:55.704+0700] {override.py:1829} INFO - Created Permission View: can read on DAG:example_bash_operator
+[2024-05-10T17:15:55.707+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:55.707+0700] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_bash_operator
+[2024-05-10T17:15:55.707+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:55.707+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:15:55.712+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:55.712+0700] {dag.py:3118} INFO - Creating ORM DAG for example_bash_operator
+[2024-05-10T17:15:55.716+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:55.716+0700] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-09 00:00:00+00:00, run_after=2024-05-10 00:00:00+00:00
+[2024-05-10T17:15:55.725+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.137 seconds
+[2024-05-10T17:18:04.172+0700] {processor.py:161} INFO - Started process (PID=82461) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-10T17:18:04.173+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-10T17:18:04.173+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:18:04.173+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-10T17:18:04.181+0700] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-10T17:18:04.242+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:18:04.242+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:18:04.251+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:18:04.251+0700] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-09 00:00:00+00:00, run_after=2024-05-10 00:00:00+00:00
+[2024-05-10T17:18:04.261+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.090 seconds
+[2024-05-10T17:20:12.033+0700] {processor.py:161} INFO - Started process (PID=83652) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-10T17:20:12.034+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-10T17:20:12.035+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:20:12.034+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-10T17:20:12.042+0700] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-10T17:20:12.103+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:20:12.103+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:20:12.112+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:20:12.112+0700] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-09 00:00:00+00:00, run_after=2024-05-10 00:00:00+00:00
+[2024-05-10T17:20:12.122+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.091 seconds
+[2024-05-10T17:22:25.522+0700] {processor.py:161} INFO - Started process (PID=85077) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-10T17:22:25.523+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-10T17:22:25.523+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:22:25.523+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-10T17:22:25.531+0700] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-10T17:22:25.590+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:22:25.590+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:22:25.600+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:22:25.600+0700] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-09 00:00:00+00:00, run_after=2024-05-10 00:00:00+00:00
+[2024-05-10T17:22:25.609+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.089 seconds

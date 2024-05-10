@@ -1,0 +1,74 @@
+[2024-05-10T17:12:21.778+0700] {processor.py:161} INFO - Started process (PID=79273) to work on /Users/krittapas/airflow/dags/api.py
+[2024-05-10T17:12:21.779+0700] {processor.py:830} INFO - Processing file /Users/krittapas/airflow/dags/api.py for tasks to queue
+[2024-05-10T17:12:21.779+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:12:21.779+0700] {dagbag.py:545} INFO - Filling up the DagBag from /Users/krittapas/airflow/dags/api.py
+[2024-05-10T17:12:21.826+0700] {processor.py:840} INFO - DAG(s) 'example_dag_with_kafka' retrieved from /Users/krittapas/airflow/dags/api.py
+[2024-05-10T17:12:21.939+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:12:21.939+0700] {override.py:1829} INFO - Created Permission View: can read on DAG:example_dag_with_kafka
+[2024-05-10T17:12:21.944+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:12:21.944+0700] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_dag_with_kafka
+[2024-05-10T17:12:21.947+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:12:21.947+0700] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_dag_with_kafka
+[2024-05-10T17:12:21.947+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:12:21.947+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:12:21.952+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:12:21.952+0700] {dag.py:3118} INFO - Creating ORM DAG for example_dag_with_kafka
+[2024-05-10T17:12:21.956+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:12:21.956+0700] {dag.py:3954} INFO - Setting next_dagrun for example_dag_with_kafka to 2024-05-10 00:00:00+00:00, run_after=2024-05-11 00:00:00+00:00
+[2024-05-10T17:12:21.963+0700] {processor.py:183} INFO - Processing /Users/krittapas/airflow/dags/api.py took 0.186 seconds
+[2024-05-10T17:14:18.677+0700] {processor.py:161} INFO - Started process (PID=80586) to work on /Users/krittapas/airflow/dags/api.py
+[2024-05-10T17:14:18.678+0700] {processor.py:830} INFO - Processing file /Users/krittapas/airflow/dags/api.py for tasks to queue
+[2024-05-10T17:14:18.678+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:18.678+0700] {dagbag.py:545} INFO - Filling up the DagBag from /Users/krittapas/airflow/dags/api.py
+[2024-05-10T17:14:18.730+0700] {processor.py:840} INFO - DAG(s) 'example_dag_with_kafka' retrieved from /Users/krittapas/airflow/dags/api.py
+[2024-05-10T17:14:18.787+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:18.787+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:14:18.796+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:18.796+0700] {dag.py:3954} INFO - Setting next_dagrun for example_dag_with_kafka to 2024-05-10 00:00:00+00:00, run_after=2024-05-11 00:00:00+00:00
+[2024-05-10T17:14:18.805+0700] {processor.py:183} INFO - Processing /Users/krittapas/airflow/dags/api.py took 0.132 seconds
+[2024-05-10T17:15:59.597+0700] {processor.py:161} INFO - Started process (PID=81461) to work on /Users/krittapas/airflow/dags/api.py
+[2024-05-10T17:15:59.599+0700] {processor.py:830} INFO - Processing file /Users/krittapas/airflow/dags/api.py for tasks to queue
+[2024-05-10T17:15:59.599+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:59.599+0700] {dagbag.py:545} INFO - Filling up the DagBag from /Users/krittapas/airflow/dags/api.py
+[2024-05-10T17:15:59.646+0700] {processor.py:840} INFO - DAG(s) 'example_dag_with_kafka' retrieved from /Users/krittapas/airflow/dags/api.py
+[2024-05-10T17:15:59.699+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:59.698+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:15:59.708+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:59.708+0700] {dag.py:3954} INFO - Setting next_dagrun for example_dag_with_kafka to 2024-05-10 00:00:00+00:00, run_after=2024-05-11 00:00:00+00:00
+[2024-05-10T17:15:59.716+0700] {processor.py:183} INFO - Processing /Users/krittapas/airflow/dags/api.py took 0.120 seconds
+[2024-05-10T17:17:03.195+0700] {processor.py:161} INFO - Started process (PID=81966) to work on /Users/krittapas/airflow/dags/api.py
+[2024-05-10T17:17:03.196+0700] {processor.py:830} INFO - Processing file /Users/krittapas/airflow/dags/api.py for tasks to queue
+[2024-05-10T17:17:03.196+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:17:03.196+0700] {dagbag.py:545} INFO - Filling up the DagBag from /Users/krittapas/airflow/dags/api.py
+[2024-05-10T17:17:03.241+0700] {processor.py:840} INFO - DAG(s) 'example_dag_with_kafka' retrieved from /Users/krittapas/airflow/dags/api.py
+[2024-05-10T17:17:03.296+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:17:03.296+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:17:03.305+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:17:03.305+0700] {dag.py:3954} INFO - Setting next_dagrun for example_dag_with_kafka to 2024-05-10 00:00:00+00:00, run_after=2024-05-11 00:00:00+00:00
+[2024-05-10T17:17:03.314+0700] {processor.py:183} INFO - Processing /Users/krittapas/airflow/dags/api.py took 0.120 seconds
+[2024-05-10T17:18:08.176+0700] {processor.py:161} INFO - Started process (PID=82494) to work on /Users/krittapas/airflow/dags/api.py
+[2024-05-10T17:18:08.176+0700] {processor.py:830} INFO - Processing file /Users/krittapas/airflow/dags/api.py for tasks to queue
+[2024-05-10T17:18:08.177+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:18:08.177+0700] {dagbag.py:545} INFO - Filling up the DagBag from /Users/krittapas/airflow/dags/api.py
+[2024-05-10T17:18:08.224+0700] {processor.py:840} INFO - DAG(s) 'example_dag_with_kafka' retrieved from /Users/krittapas/airflow/dags/api.py
+[2024-05-10T17:18:08.278+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:18:08.278+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:18:08.287+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:18:08.287+0700] {dag.py:3954} INFO - Setting next_dagrun for example_dag_with_kafka to 2024-05-10 00:00:00+00:00, run_after=2024-05-11 00:00:00+00:00
+[2024-05-10T17:18:08.296+0700] {processor.py:183} INFO - Processing /Users/krittapas/airflow/dags/api.py took 0.122 seconds
+[2024-05-10T17:19:13.127+0700] {processor.py:161} INFO - Started process (PID=83014) to work on /Users/krittapas/airflow/dags/api.py
+[2024-05-10T17:19:13.128+0700] {processor.py:830} INFO - Processing file /Users/krittapas/airflow/dags/api.py for tasks to queue
+[2024-05-10T17:19:13.128+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:19:13.128+0700] {dagbag.py:545} INFO - Filling up the DagBag from /Users/krittapas/airflow/dags/api.py
+[2024-05-10T17:19:13.176+0700] {processor.py:840} INFO - DAG(s) 'example_dag_with_kafka' retrieved from /Users/krittapas/airflow/dags/api.py
+[2024-05-10T17:19:13.229+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:19:13.229+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:19:13.239+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:19:13.238+0700] {dag.py:3954} INFO - Setting next_dagrun for example_dag_with_kafka to 2024-05-10 00:00:00+00:00, run_after=2024-05-11 00:00:00+00:00
+[2024-05-10T17:19:13.247+0700] {processor.py:183} INFO - Processing /Users/krittapas/airflow/dags/api.py took 0.122 seconds
+[2024-05-10T17:20:16.134+0700] {processor.py:161} INFO - Started process (PID=83684) to work on /Users/krittapas/airflow/dags/api.py
+[2024-05-10T17:20:16.135+0700] {processor.py:830} INFO - Processing file /Users/krittapas/airflow/dags/api.py for tasks to queue
+[2024-05-10T17:20:16.135+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:20:16.135+0700] {dagbag.py:545} INFO - Filling up the DagBag from /Users/krittapas/airflow/dags/api.py
+[2024-05-10T17:20:16.183+0700] {processor.py:840} INFO - DAG(s) 'example_dag_with_kafka' retrieved from /Users/krittapas/airflow/dags/api.py
+[2024-05-10T17:20:16.239+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:20:16.238+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:20:16.248+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:20:16.248+0700] {dag.py:3954} INFO - Setting next_dagrun for example_dag_with_kafka to 2024-05-10 00:00:00+00:00, run_after=2024-05-11 00:00:00+00:00
+[2024-05-10T17:20:16.257+0700] {processor.py:183} INFO - Processing /Users/krittapas/airflow/dags/api.py took 0.124 seconds
+[2024-05-10T17:21:21.359+0700] {processor.py:161} INFO - Started process (PID=84347) to work on /Users/krittapas/airflow/dags/api.py
+[2024-05-10T17:21:21.360+0700] {processor.py:830} INFO - Processing file /Users/krittapas/airflow/dags/api.py for tasks to queue
+[2024-05-10T17:21:21.360+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:21:21.360+0700] {dagbag.py:545} INFO - Filling up the DagBag from /Users/krittapas/airflow/dags/api.py
+[2024-05-10T17:21:21.408+0700] {processor.py:840} INFO - DAG(s) 'example_dag_with_kafka' retrieved from /Users/krittapas/airflow/dags/api.py
+[2024-05-10T17:21:21.461+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:21:21.461+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:21:21.470+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:21:21.470+0700] {dag.py:3954} INFO - Setting next_dagrun for example_dag_with_kafka to 2024-05-10 00:00:00+00:00, run_after=2024-05-11 00:00:00+00:00
+[2024-05-10T17:21:21.478+0700] {processor.py:183} INFO - Processing /Users/krittapas/airflow/dags/api.py took 0.121 seconds
+[2024-05-10T17:22:29.561+0700] {processor.py:161} INFO - Started process (PID=85111) to work on /Users/krittapas/airflow/dags/api.py
+[2024-05-10T17:22:29.562+0700] {processor.py:830} INFO - Processing file /Users/krittapas/airflow/dags/api.py for tasks to queue
+[2024-05-10T17:22:29.563+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:22:29.563+0700] {dagbag.py:545} INFO - Filling up the DagBag from /Users/krittapas/airflow/dags/api.py
+[2024-05-10T17:22:29.648+0700] {processor.py:840} INFO - DAG(s) 'example_dag_with_kafka' retrieved from /Users/krittapas/airflow/dags/api.py
+[2024-05-10T17:22:29.701+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:22:29.701+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:22:29.710+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:22:29.710+0700] {dag.py:3954} INFO - Setting next_dagrun for example_dag_with_kafka to 2024-05-10 00:00:00+00:00, run_after=2024-05-11 00:00:00+00:00
+[2024-05-10T17:22:29.719+0700] {processor.py:183} INFO - Processing /Users/krittapas/airflow/dags/api.py took 0.159 seconds
+[2024-05-10T17:28:39.088+0700] {processor.py:161} INFO - Started process (PID=88995) to work on /Users/krittapas/airflow/dags/api.py
+[2024-05-10T17:28:39.089+0700] {processor.py:830} INFO - Processing file /Users/krittapas/airflow/dags/api.py for tasks to queue
+[2024-05-10T17:28:39.090+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:28:39.090+0700] {dagbag.py:545} INFO - Filling up the DagBag from /Users/krittapas/airflow/dags/api.py
+[2024-05-10T17:28:39.182+0700] {processor.py:840} INFO - DAG(s) 'example_dag_with_kafka' retrieved from /Users/krittapas/airflow/dags/api.py
+[2024-05-10T17:28:39.244+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:28:39.243+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:28:39.252+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:28:39.252+0700] {dag.py:3954} INFO - Setting next_dagrun for example_dag_with_kafka to 2024-05-10 00:00:00+00:00, run_after=2024-05-11 00:00:00+00:00
+[2024-05-10T17:28:39.262+0700] {processor.py:183} INFO - Processing /Users/krittapas/airflow/dags/api.py took 0.176 seconds

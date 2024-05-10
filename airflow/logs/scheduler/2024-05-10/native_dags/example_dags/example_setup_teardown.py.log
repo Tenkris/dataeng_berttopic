@@ -1,0 +1,39 @@
+[2024-05-10T17:15:05.153+0700] {processor.py:161} INFO - Started process (PID=81028) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-05-10T17:15:05.154+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-05-10T17:15:05.154+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:05.154+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-05-10T17:15:05.160+0700] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-05-10T17:15:05.267+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:05.266+0700] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_setup_teardown
+[2024-05-10T17:15:05.271+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:05.271+0700] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_setup_teardown
+[2024-05-10T17:15:05.274+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:05.274+0700] {override.py:1829} INFO - Created Permission View: can read on DAG:example_setup_teardown
+[2024-05-10T17:15:05.274+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:05.274+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:15:05.279+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:05.279+0700] {dag.py:3118} INFO - Creating ORM DAG for example_setup_teardown
+[2024-05-10T17:15:05.282+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:05.282+0700] {dag.py:3954} INFO - Setting next_dagrun for example_setup_teardown to 2024-05-09 00:00:00+00:00, run_after=2024-05-10 00:00:00+00:00
+[2024-05-10T17:15:05.291+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.139 seconds
+[2024-05-10T17:16:41.074+0700] {processor.py:161} INFO - Started process (PID=81794) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-05-10T17:16:41.076+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-05-10T17:16:41.076+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:16:41.076+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-05-10T17:16:41.081+0700] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-05-10T17:16:41.139+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:16:41.139+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:16:41.148+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:16:41.148+0700] {dag.py:3954} INFO - Setting next_dagrun for example_setup_teardown to 2024-05-09 00:00:00+00:00, run_after=2024-05-10 00:00:00+00:00
+[2024-05-10T17:16:41.157+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.084 seconds
+[2024-05-10T17:18:51.230+0700] {processor.py:161} INFO - Started process (PID=82836) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-05-10T17:18:51.231+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-05-10T17:18:51.231+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:18:51.231+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-05-10T17:18:51.236+0700] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-05-10T17:18:51.296+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:18:51.296+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:18:51.305+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:18:51.305+0700] {dag.py:3954} INFO - Setting next_dagrun for example_setup_teardown to 2024-05-09 00:00:00+00:00, run_after=2024-05-10 00:00:00+00:00
+[2024-05-10T17:18:51.315+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.087 seconds
+[2024-05-10T17:20:59.148+0700] {processor.py:161} INFO - Started process (PID=84037) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-05-10T17:20:59.149+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-05-10T17:20:59.150+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:20:59.150+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-05-10T17:20:59.156+0700] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-05-10T17:20:59.215+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:20:59.215+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:20:59.223+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:20:59.223+0700] {dag.py:3954} INFO - Setting next_dagrun for example_setup_teardown to 2024-05-09 00:00:00+00:00, run_after=2024-05-10 00:00:00+00:00
+[2024-05-10T17:20:59.232+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.086 seconds
+[2024-05-10T17:29:24.624+0700] {processor.py:161} INFO - Started process (PID=89354) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-05-10T17:29:24.625+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-05-10T17:29:24.626+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:29:24.626+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-05-10T17:29:24.632+0700] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-05-10T17:29:24.688+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:29:24.688+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:29:24.696+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:29:24.696+0700] {dag.py:3954} INFO - Setting next_dagrun for example_setup_teardown to 2024-05-09 00:00:00+00:00, run_after=2024-05-10 00:00:00+00:00
+[2024-05-10T17:29:24.706+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.083 seconds

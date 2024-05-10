@@ -1,0 +1,39 @@
+[2024-05-10T17:14:57.961+0700] {processor.py:161} INFO - Started process (PID=80971) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-05-10T17:14:57.962+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-05-10T17:14:57.962+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:57.962+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-05-10T17:14:57.967+0700] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-05-10T17:14:58.072+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:58.072+0700] {override.py:1829} INFO - Created Permission View: can read on DAG:example_skip_dag
+[2024-05-10T17:14:58.076+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:58.076+0700] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_skip_dag
+[2024-05-10T17:14:58.079+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:58.079+0700] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_skip_dag
+[2024-05-10T17:14:58.079+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:58.079+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:14:58.084+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:58.084+0700] {dag.py:3118} INFO - Creating ORM DAG for example_skip_dag
+[2024-05-10T17:14:58.088+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:58.088+0700] {dag.py:3954} INFO - Setting next_dagrun for example_skip_dag to 2024-05-09 00:00:00+00:00, run_after=2024-05-10 00:00:00+00:00
+[2024-05-10T17:14:58.097+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.137 seconds
+[2024-05-10T17:16:34.023+0700] {processor.py:161} INFO - Started process (PID=81738) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-05-10T17:16:34.024+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-05-10T17:16:34.025+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:16:34.025+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-05-10T17:16:34.030+0700] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-05-10T17:16:34.088+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:16:34.087+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:16:34.097+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:16:34.097+0700] {dag.py:3954} INFO - Setting next_dagrun for example_skip_dag to 2024-05-09 00:00:00+00:00, run_after=2024-05-10 00:00:00+00:00
+[2024-05-10T17:16:34.106+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.084 seconds
+[2024-05-10T17:18:44.198+0700] {processor.py:161} INFO - Started process (PID=82781) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-05-10T17:18:44.199+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-05-10T17:18:44.199+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:18:44.199+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-05-10T17:18:44.205+0700] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-05-10T17:18:44.261+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:18:44.261+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:18:44.270+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:18:44.270+0700] {dag.py:3954} INFO - Setting next_dagrun for example_skip_dag to 2024-05-09 00:00:00+00:00, run_after=2024-05-10 00:00:00+00:00
+[2024-05-10T17:18:44.279+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.083 seconds
+[2024-05-10T17:20:52.092+0700] {processor.py:161} INFO - Started process (PID=83975) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-05-10T17:20:52.093+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-05-10T17:20:52.093+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:20:52.093+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-05-10T17:20:52.098+0700] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-05-10T17:20:52.157+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:20:52.157+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:20:52.165+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:20:52.165+0700] {dag.py:3954} INFO - Setting next_dagrun for example_skip_dag to 2024-05-09 00:00:00+00:00, run_after=2024-05-10 00:00:00+00:00
+[2024-05-10T17:20:52.175+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.085 seconds
+[2024-05-10T17:29:17.547+0700] {processor.py:161} INFO - Started process (PID=89295) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-05-10T17:29:17.549+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-05-10T17:29:17.549+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:29:17.549+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-05-10T17:29:17.554+0700] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-05-10T17:29:17.611+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:29:17.611+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:29:17.619+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:29:17.619+0700] {dag.py:3954} INFO - Setting next_dagrun for example_skip_dag to 2024-05-09 00:00:00+00:00, run_after=2024-05-10 00:00:00+00:00
+[2024-05-10T17:29:17.628+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.082 seconds

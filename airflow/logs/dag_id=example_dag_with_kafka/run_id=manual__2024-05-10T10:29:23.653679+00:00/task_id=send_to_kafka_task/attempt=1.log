@@ -1,0 +1,188 @@
+[2024-05-10T17:29:26.035+0700] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-10T17:29:26.048+0700] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example_dag_with_kafka.send_to_kafka_task manual__2024-05-10T10:29:23.653679+00:00 [queued]>
+[2024-05-10T17:29:26.051+0700] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example_dag_with_kafka.send_to_kafka_task manual__2024-05-10T10:29:23.653679+00:00 [queued]>
+[2024-05-10T17:29:26.051+0700] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-05-10T17:29:26.057+0700] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): send_to_kafka_task> on 2024-05-10 10:29:23.653679+00:00
+[2024-05-10T17:29:26.063+0700] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'example_dag_with_kafka', 'send_to_kafka_task', 'manual__2024-05-10T10:29:23.653679+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/api.py', '--cfg-path', '/var/folders/tw/ksffzqq93t56xq1d5v8_ldyc0000gn/T/tmpsszh39ch']
+[2024-05-10T17:29:26.064+0700] {standard_task_runner.py:91} INFO - Job 5: Subtask send_to_kafka_task
+[2024-05-10T17:29:26.064+0700] {logging_mixin.py:188} WARNING - /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=89362) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-05-10T17:29:26.064+0700] {standard_task_runner.py:63} INFO - Started process 89370 to run task
+[2024-05-10T17:29:26.082+0700] {task_command.py:426} INFO - Running <TaskInstance: example_dag_with_kafka.send_to_kafka_task manual__2024-05-10T10:29:23.653679+00:00 [running]> on host kvtphass-macbook-pro.local
+[2024-05-10T17:29:26.111+0700] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='example_dag_with_kafka' AIRFLOW_CTX_TASK_ID='send_to_kafka_task' AIRFLOW_CTX_EXECUTION_DATE='2024-05-10T10:29:23.653679+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-10T10:29:23.653679+00:00'
+[2024-05-10T17:29:26.112+0700] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-10T17:29:26.114+0700] {conn.py:362} INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+[2024-05-10T17:29:26.114+0700] {conn.py:957} INFO - Probing node bootstrap-0 broker version
+[2024-05-10T17:29:26.115+0700] {conn.py:393} INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+[2024-05-10T17:29:26.222+0700] {conn.py:1019} INFO - Broker version identified as 2.6.0
+[2024-05-10T17:29:26.222+0700] {conn.py:1020} INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+[2024-05-10T17:34:26.280+0700] {conn.py:362} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+[2024-05-10T17:34:26.283+0700] {conn.py:393} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+[2024-05-10T17:34:26.283+0700] {conn.py:673} INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+[2024-05-10T20:37:46.465+0700] {conn.py:673} ERROR - <BrokerConnection node_id=1001 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: Socket EVENT_READ without in-flight-requests
+[2024-05-10T20:37:46.473+0700] {client_async.py:330} WARNING - Node 1001 connection failed -- refreshing metadata
+[2024-05-10T20:37:46.525+0700] {conn.py:362} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2024-05-10T20:37:46.526+0700] {conn.py:393} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+[2024-05-10T20:37:48.724+0700] {conn.py:859} ERROR - <BrokerConnection node_id=1001 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Error receiving network data closing socket
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/kafka/conn.py", line 844, in _recv
+    data = self._sock.recv(self.config['sock_chunk_bytes'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 54] Connection reset by peer
+[2024-05-10T20:37:48.730+0700] {conn.py:673} ERROR - <BrokerConnection node_id=1001 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: [Errno 54] Connection reset by peer
+[2024-05-10T20:37:48.730+0700] {client_async.py:330} WARNING - Node 1001 connection failed -- refreshing metadata
+[2024-05-10T20:37:48.884+0700] {conn.py:362} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+[2024-05-10T20:37:48.884+0700] {conn.py:402} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+[2024-05-10T20:37:48.885+0700] {conn.py:673} ERROR - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+[2024-05-10T20:37:48.885+0700] {client_async.py:330} WARNING - Node 1001 connection failed -- refreshing metadata
+[2024-05-10T20:37:48.987+0700] {conn.py:362} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2024-05-10T20:37:48.988+0700] {conn.py:402} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+[2024-05-10T20:37:48.988+0700] {conn.py:673} ERROR - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+[2024-05-10T20:37:48.988+0700] {client_async.py:330} WARNING - Node 1001 connection failed -- refreshing metadata
+[2024-05-10T20:37:49.193+0700] {conn.py:362} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+[2024-05-10T20:37:49.194+0700] {conn.py:402} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+[2024-05-10T20:37:49.194+0700] {conn.py:673} ERROR - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+[2024-05-10T20:37:49.195+0700] {client_async.py:330} WARNING - Node 1001 connection failed -- refreshing metadata
+[2024-05-10T20:37:49.398+0700] {conn.py:362} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2024-05-10T20:37:49.399+0700] {conn.py:402} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+[2024-05-10T20:37:49.399+0700] {conn.py:673} ERROR - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+[2024-05-10T20:37:49.399+0700] {client_async.py:330} WARNING - Node 1001 connection failed -- refreshing metadata
+[2024-05-10T20:37:49.707+0700] {conn.py:362} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+[2024-05-10T20:37:49.708+0700] {conn.py:402} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+[2024-05-10T20:37:49.715+0700] {conn.py:673} ERROR - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+[2024-05-10T20:37:49.715+0700] {client_async.py:330} WARNING - Node 1001 connection failed -- refreshing metadata
+[2024-05-10T20:37:50.022+0700] {conn.py:362} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2024-05-10T20:37:50.022+0700] {conn.py:402} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+[2024-05-10T20:37:50.023+0700] {conn.py:673} ERROR - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+[2024-05-10T20:37:50.023+0700] {client_async.py:330} WARNING - Node 1001 connection failed -- refreshing metadata
+[2024-05-10T20:37:50.534+0700] {conn.py:362} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+[2024-05-10T20:37:50.535+0700] {conn.py:402} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+[2024-05-10T20:37:50.535+0700] {conn.py:673} ERROR - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+[2024-05-10T20:37:50.535+0700] {client_async.py:330} WARNING - Node 1001 connection failed -- refreshing metadata
+[2024-05-10T20:37:51.045+0700] {conn.py:362} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2024-05-10T20:37:51.046+0700] {conn.py:402} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+[2024-05-10T20:37:51.046+0700] {conn.py:673} ERROR - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+[2024-05-10T20:37:51.046+0700] {client_async.py:330} WARNING - Node 1001 connection failed -- refreshing metadata
+[2024-05-10T20:37:52.067+0700] {conn.py:362} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+[2024-05-10T20:37:52.067+0700] {conn.py:402} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+[2024-05-10T20:37:52.068+0700] {conn.py:673} ERROR - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+[2024-05-10T20:37:52.068+0700] {client_async.py:330} WARNING - Node 1001 connection failed -- refreshing metadata
+[2024-05-10T20:37:53.090+0700] {conn.py:362} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2024-05-10T20:37:53.090+0700] {conn.py:402} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+[2024-05-10T20:37:53.090+0700] {conn.py:673} ERROR - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+[2024-05-10T20:37:53.091+0700] {client_async.py:330} WARNING - Node 1001 connection failed -- refreshing metadata
+[2024-05-10T20:37:54.265+0700] {conn.py:362} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+[2024-05-10T20:37:54.266+0700] {conn.py:402} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+[2024-05-10T20:37:54.266+0700] {conn.py:673} ERROR - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+[2024-05-10T20:37:54.267+0700] {client_async.py:330} WARNING - Node 1001 connection failed -- refreshing metadata
+[2024-05-10T20:37:55.440+0700] {conn.py:362} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2024-05-10T20:37:55.440+0700] {conn.py:402} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+[2024-05-10T20:37:55.441+0700] {conn.py:673} ERROR - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+[2024-05-10T20:37:55.441+0700] {client_async.py:330} WARNING - Node 1001 connection failed -- refreshing metadata
+[2024-05-10T20:37:56.361+0700] {conn.py:362} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+[2024-05-10T20:37:56.362+0700] {conn.py:402} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+[2024-05-10T20:37:56.362+0700] {conn.py:673} ERROR - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+[2024-05-10T20:37:56.363+0700] {client_async.py:330} WARNING - Node 1001 connection failed -- refreshing metadata
+[2024-05-10T20:37:57.281+0700] {conn.py:362} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2024-05-10T20:37:57.282+0700] {conn.py:402} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+[2024-05-10T20:37:57.282+0700] {conn.py:673} ERROR - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+[2024-05-10T20:37:57.282+0700] {client_async.py:330} WARNING - Node 1001 connection failed -- refreshing metadata
+[2024-05-10T20:37:58.253+0700] {conn.py:362} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+[2024-05-10T20:37:58.253+0700] {conn.py:402} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+[2024-05-10T20:37:58.254+0700] {conn.py:673} ERROR - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+[2024-05-10T20:37:58.254+0700] {client_async.py:330} WARNING - Node 1001 connection failed -- refreshing metadata
+[2024-05-10T20:37:59.224+0700] {conn.py:362} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2024-05-10T20:37:59.225+0700] {conn.py:402} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+[2024-05-10T20:37:59.225+0700] {conn.py:673} ERROR - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+[2024-05-10T20:37:59.225+0700] {client_async.py:330} WARNING - Node 1001 connection failed -- refreshing metadata
+[2024-05-10T20:38:00.400+0700] {conn.py:362} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+[2024-05-10T20:38:00.401+0700] {conn.py:402} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+[2024-05-10T20:38:00.401+0700] {conn.py:673} ERROR - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+[2024-05-10T20:38:00.402+0700] {client_async.py:330} WARNING - Node 1001 connection failed -- refreshing metadata
+[2024-05-10T20:38:01.575+0700] {conn.py:362} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2024-05-10T20:38:01.576+0700] {conn.py:402} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+[2024-05-10T20:38:01.576+0700] {conn.py:673} ERROR - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+[2024-05-10T20:38:01.576+0700] {client_async.py:330} WARNING - Node 1001 connection failed -- refreshing metadata
+[2024-05-10T20:38:02.649+0700] {conn.py:362} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+[2024-05-10T20:38:02.650+0700] {conn.py:402} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+[2024-05-10T20:38:02.650+0700] {conn.py:673} ERROR - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+[2024-05-10T20:38:02.650+0700] {client_async.py:330} WARNING - Node 1001 connection failed -- refreshing metadata
+[2024-05-10T20:38:03.691+0700] {conn.py:362} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2024-05-10T20:38:03.695+0700] {conn.py:402} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+[2024-05-10T20:38:03.698+0700] {conn.py:673} ERROR - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+[2024-05-10T20:38:03.698+0700] {client_async.py:330} WARNING - Node 1001 connection failed -- refreshing metadata
+[2024-05-10T20:38:04.799+0700] {conn.py:362} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+[2024-05-10T20:38:04.800+0700] {conn.py:402} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+[2024-05-10T20:38:04.801+0700] {conn.py:673} ERROR - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+[2024-05-10T20:38:04.801+0700] {client_async.py:330} WARNING - Node 1001 connection failed -- refreshing metadata
+[2024-05-10T20:38:05.822+0700] {conn.py:362} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2024-05-10T20:38:05.823+0700] {conn.py:402} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+[2024-05-10T20:38:05.827+0700] {conn.py:673} ERROR - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+[2024-05-10T20:38:05.828+0700] {client_async.py:330} WARNING - Node 1001 connection failed -- refreshing metadata
+[2024-05-10T20:38:07.053+0700] {conn.py:362} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+[2024-05-10T20:38:07.054+0700] {conn.py:402} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+[2024-05-10T20:38:07.054+0700] {conn.py:673} ERROR - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+[2024-05-10T20:38:07.054+0700] {client_async.py:330} WARNING - Node 1001 connection failed -- refreshing metadata
+[2024-05-10T20:38:08.279+0700] {conn.py:362} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2024-05-10T20:38:08.279+0700] {conn.py:402} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+[2024-05-10T20:38:08.280+0700] {conn.py:673} ERROR - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+[2024-05-10T20:38:08.280+0700] {client_async.py:330} WARNING - Node 1001 connection failed -- refreshing metadata
+[2024-05-10T20:38:09.200+0700] {conn.py:362} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+[2024-05-10T20:38:09.200+0700] {conn.py:402} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+[2024-05-10T20:38:09.201+0700] {conn.py:673} ERROR - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+[2024-05-10T20:38:09.201+0700] {client_async.py:330} WARNING - Node 1001 connection failed -- refreshing metadata
+[2024-05-10T20:38:10.120+0700] {conn.py:362} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2024-05-10T20:38:10.121+0700] {conn.py:402} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+[2024-05-10T20:38:10.121+0700] {conn.py:673} ERROR - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+[2024-05-10T20:38:10.121+0700] {client_async.py:330} WARNING - Node 1001 connection failed -- refreshing metadata
+[2024-05-10T20:38:11.143+0700] {conn.py:362} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+[2024-05-10T20:38:11.143+0700] {conn.py:402} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+[2024-05-10T20:38:11.143+0700] {conn.py:673} ERROR - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+[2024-05-10T20:38:11.144+0700] {client_async.py:330} WARNING - Node 1001 connection failed -- refreshing metadata
+[2024-05-10T20:38:12.165+0700] {conn.py:362} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2024-05-10T20:38:12.166+0700] {conn.py:402} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+[2024-05-10T20:38:12.169+0700] {conn.py:673} ERROR - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+[2024-05-10T20:38:12.169+0700] {client_async.py:330} WARNING - Node 1001 connection failed -- refreshing metadata
+[2024-05-10T20:38:13.191+0700] {conn.py:362} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+[2024-05-10T20:38:13.191+0700] {conn.py:402} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+[2024-05-10T20:38:13.191+0700] {conn.py:673} ERROR - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+[2024-05-10T20:38:13.192+0700] {client_async.py:330} WARNING - Node 1001 connection failed -- refreshing metadata
+[2024-05-10T20:38:14.212+0700] {conn.py:362} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2024-05-10T20:38:14.213+0700] {conn.py:402} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+[2024-05-10T20:38:14.213+0700] {conn.py:673} ERROR - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+[2024-05-10T20:38:14.213+0700] {client_async.py:330} WARNING - Node 1001 connection failed -- refreshing metadata
+[2024-05-10T20:38:15.439+0700] {conn.py:362} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+[2024-05-10T20:38:15.439+0700] {conn.py:402} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+[2024-05-10T20:38:15.440+0700] {conn.py:673} ERROR - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+[2024-05-10T20:38:15.440+0700] {client_async.py:330} WARNING - Node 1001 connection failed -- refreshing metadata
+[2024-05-10T20:38:17.075+0700] {conn.py:362} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2024-05-10T20:38:17.076+0700] {conn.py:402} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+[2024-05-10T20:38:17.076+0700] {conn.py:673} ERROR - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+[2024-05-10T20:38:17.076+0700] {client_async.py:330} WARNING - Node 1001 connection failed -- refreshing metadata
+[2024-05-10T20:38:18.149+0700] {conn.py:362} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+[2024-05-10T20:38:18.150+0700] {conn.py:402} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+[2024-05-10T20:38:18.150+0700] {conn.py:673} ERROR - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+[2024-05-10T20:38:18.150+0700] {client_async.py:330} WARNING - Node 1001 connection failed -- refreshing metadata
+[2024-05-10T20:38:19.223+0700] {conn.py:362} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2024-05-10T20:38:19.223+0700] {conn.py:402} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+[2024-05-10T20:38:19.223+0700] {conn.py:673} ERROR - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+[2024-05-10T20:38:19.223+0700] {client_async.py:330} WARNING - Node 1001 connection failed -- refreshing metadata
+[2024-05-10T20:38:20.296+0700] {conn.py:362} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+[2024-05-10T20:38:20.297+0700] {conn.py:402} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+[2024-05-10T20:38:20.297+0700] {conn.py:673} ERROR - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+[2024-05-10T20:38:20.297+0700] {client_async.py:330} WARNING - Node 1001 connection failed -- refreshing metadata
+[2024-05-10T20:38:21.370+0700] {conn.py:362} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2024-05-10T20:38:21.370+0700] {conn.py:402} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+[2024-05-10T20:38:21.371+0700] {conn.py:673} ERROR - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+[2024-05-10T20:38:21.371+0700] {client_async.py:330} WARNING - Node 1001 connection failed -- refreshing metadata
+[2024-05-10T20:38:22.445+0700] {conn.py:362} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+[2024-05-10T20:38:22.448+0700] {conn.py:402} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+[2024-05-10T20:38:22.449+0700] {conn.py:673} ERROR - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+[2024-05-10T20:38:22.451+0700] {client_async.py:330} WARNING - Node 1001 connection failed -- refreshing metadata
+[2024-05-10T20:38:23.528+0700] {conn.py:362} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2024-05-10T20:38:23.529+0700] {conn.py:402} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+[2024-05-10T20:38:23.530+0700] {conn.py:673} ERROR - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+[2024-05-10T20:38:23.531+0700] {client_async.py:330} WARNING - Node 1001 connection failed -- refreshing metadata
+[2024-05-10T20:38:24.554+0700] {conn.py:362} INFO - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+[2024-05-10T20:38:24.555+0700] {conn.py:402} ERROR - Connect attempt to <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+[2024-05-10T20:38:24.556+0700] {conn.py:673} ERROR - <BrokerConnection node_id=1001 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+[2024-05-10T20:38:24.557+0700] {client_async.py:330} WARNING - Node 1001 connection failed -- refreshing metadata

@@ -1,0 +1,67 @@
+[2024-05-10T17:14:32.866+0700] {processor.py:161} INFO - Started process (PID=80727) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-05-10T17:14:32.867+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-05-10T17:14:32.867+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:32.867+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-05-10T17:14:32.912+0700] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-05-10T17:14:33.014+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:33.014+0700] {override.py:1829} INFO - Created Permission View: can read on DAG:tutorial_objectstorage
+[2024-05-10T17:14:33.018+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:33.018+0700] {override.py:1829} INFO - Created Permission View: can edit on DAG:tutorial_objectstorage
+[2024-05-10T17:14:33.021+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:33.021+0700] {override.py:1829} INFO - Created Permission View: can delete on DAG:tutorial_objectstorage
+[2024-05-10T17:14:33.022+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:33.022+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:14:33.027+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:33.027+0700] {dag.py:3118} INFO - Creating ORM DAG for tutorial_objectstorage
+[2024-05-10T17:14:33.027+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:33.027+0700] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-05-10T17:14:33.035+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.171 seconds
+[2024-05-10T17:16:13.315+0700] {processor.py:161} INFO - Started process (PID=81568) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-05-10T17:16:13.316+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-05-10T17:16:13.317+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:16:13.316+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-05-10T17:16:13.367+0700] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-05-10T17:16:13.422+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:16:13.422+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:16:13.427+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:16:13.427+0700] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-05-10T17:16:13.437+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.123 seconds
+[2024-05-10T17:17:16.261+0700] {processor.py:161} INFO - Started process (PID=82072) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-05-10T17:17:16.262+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-05-10T17:17:16.262+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:17:16.262+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-05-10T17:17:16.311+0700] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-05-10T17:17:16.366+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:17:16.366+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:17:16.371+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:17:16.371+0700] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-05-10T17:17:16.380+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.120 seconds
+[2024-05-10T17:18:21.273+0700] {processor.py:161} INFO - Started process (PID=82601) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-05-10T17:18:21.274+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-05-10T17:18:21.275+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:18:21.275+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-05-10T17:18:21.325+0700] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-05-10T17:18:21.380+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:18:21.379+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:18:21.385+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:18:21.385+0700] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-05-10T17:18:21.394+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.122 seconds
+[2024-05-10T17:19:26.199+0700] {processor.py:161} INFO - Started process (PID=83117) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-05-10T17:19:26.201+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-05-10T17:19:26.201+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:19:26.201+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-05-10T17:19:26.251+0700] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-05-10T17:19:26.306+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:19:26.306+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:19:26.311+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:19:26.311+0700] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-05-10T17:19:26.320+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.123 seconds
+[2024-05-10T17:20:30.019+0700] {processor.py:161} INFO - Started process (PID=83791) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-05-10T17:20:30.021+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-05-10T17:20:30.021+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:20:30.021+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-05-10T17:20:30.074+0700] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-05-10T17:20:30.136+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:20:30.136+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:20:30.140+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:20:30.140+0700] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-05-10T17:20:30.152+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.134 seconds
+[2024-05-10T17:21:35.380+0700] {processor.py:161} INFO - Started process (PID=84579) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-05-10T17:21:35.382+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-05-10T17:21:35.382+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:21:35.382+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-05-10T17:21:35.433+0700] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-05-10T17:21:35.490+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:21:35.490+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:21:35.495+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:21:35.495+0700] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-05-10T17:21:35.503+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.124 seconds
+[2024-05-10T17:22:44.656+0700] {processor.py:161} INFO - Started process (PID=85246) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-05-10T17:22:44.657+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-05-10T17:22:44.658+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:22:44.658+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-05-10T17:22:44.711+0700] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-05-10T17:22:44.767+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:22:44.767+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:22:44.772+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:22:44.772+0700] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-05-10T17:22:44.781+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.127 seconds
+[2024-05-10T17:28:55.521+0700] {processor.py:161} INFO - Started process (PID=89126) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-05-10T17:28:55.522+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-05-10T17:28:55.522+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:28:55.522+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-05-10T17:28:55.570+0700] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-05-10T17:28:55.628+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:28:55.628+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:28:55.632+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:28:55.632+0700] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-05-10T17:28:55.643+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.123 seconds

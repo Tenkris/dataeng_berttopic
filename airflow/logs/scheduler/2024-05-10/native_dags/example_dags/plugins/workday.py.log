@@ -1,0 +1,60 @@
+[2024-05-10T17:12:25.818+0700] {processor.py:161} INFO - Started process (PID=79303) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:12:25.818+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:12:25.819+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:12:25.819+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:12:25.819+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:12:25.819+0700] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-05-10T17:12:25.819+0700] {processor.py:842} WARNING - No viable dags retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:12:25.861+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.044 seconds
+[2024-05-10T17:14:22.844+0700] {processor.py:161} INFO - Started process (PID=80624) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:14:22.844+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:14:22.845+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:22.845+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:14:22.845+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:22.845+0700] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-05-10T17:14:22.846+0700] {processor.py:842} WARNING - No viable dags retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:14:22.887+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.045 seconds
+[2024-05-10T17:16:02.571+0700] {processor.py:161} INFO - Started process (PID=81486) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:16:02.572+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:16:02.572+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:16:02.572+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:16:02.573+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:16:02.573+0700] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-05-10T17:16:02.573+0700] {processor.py:842} WARNING - No viable dags retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:16:02.615+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.046 seconds
+[2024-05-10T17:17:07.087+0700] {processor.py:161} INFO - Started process (PID=81998) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:17:07.088+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:17:07.089+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:17:07.089+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:17:07.090+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:17:07.090+0700] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-05-10T17:17:07.090+0700] {processor.py:842} WARNING - No viable dags retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:17:07.132+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.046 seconds
+[2024-05-10T17:18:12.122+0700] {processor.py:161} INFO - Started process (PID=82526) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:18:12.123+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:18:12.123+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:18:12.123+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:18:12.124+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:18:12.124+0700] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-05-10T17:18:12.125+0700] {processor.py:842} WARNING - No viable dags retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:18:12.167+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.046 seconds
+[2024-05-10T17:19:16.117+0700] {processor.py:161} INFO - Started process (PID=83032) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:19:16.118+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:19:16.118+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:19:16.118+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:19:16.119+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:19:16.119+0700] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-05-10T17:19:16.119+0700] {processor.py:842} WARNING - No viable dags retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:19:16.160+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.045 seconds
+[2024-05-10T17:20:19.217+0700] {processor.py:161} INFO - Started process (PID=83707) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:20:19.218+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:20:19.218+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:20:19.218+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:20:19.219+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:20:19.219+0700] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-05-10T17:20:19.220+0700] {processor.py:842} WARNING - No viable dags retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:20:19.261+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.045 seconds
+[2024-05-10T17:21:24.393+0700] {processor.py:161} INFO - Started process (PID=84424) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:21:24.394+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:21:24.394+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:21:24.394+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:21:24.395+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:21:24.395+0700] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-05-10T17:21:24.395+0700] {processor.py:842} WARNING - No viable dags retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:21:24.439+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.049 seconds
+[2024-05-10T17:22:33.541+0700] {processor.py:161} INFO - Started process (PID=85145) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:22:33.542+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:22:33.542+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:22:33.542+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:22:33.543+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:22:33.543+0700] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-05-10T17:22:33.544+0700] {processor.py:842} WARNING - No viable dags retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:22:33.585+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.045 seconds
+[2024-05-10T17:28:43.334+0700] {processor.py:161} INFO - Started process (PID=89028) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:28:43.335+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-05-10T17:28:43.336+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:28:43.336+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:28:43.336+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:28:43.336+0700] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-05-10T17:28:43.337+0700] {processor.py:842} WARNING - No viable dags retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-05-10T17:28:43.381+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.048 seconds

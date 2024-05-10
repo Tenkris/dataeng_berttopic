@@ -1,0 +1,32 @@
+[2024-05-10T17:15:42.579+0700] {processor.py:161} INFO - Started process (PID=81330) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2024-05-10T17:15:42.580+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-05-10T17:15:42.580+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:42.580+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2024-05-10T17:15:42.589+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2024-05-10T17:15:42.698+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:42.697+0700] {override.py:1829} INFO - Created Permission View: can read on DAG:example_complex
+[2024-05-10T17:15:42.702+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:42.701+0700] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_complex
+[2024-05-10T17:15:42.704+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:42.704+0700] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_complex
+[2024-05-10T17:15:42.704+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:42.704+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:15:42.709+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:42.709+0700] {dag.py:3118} INFO - Creating ORM DAG for example_complex
+[2024-05-10T17:15:42.709+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:42.709+0700] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-05-10T17:15:42.718+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.140 seconds
+[2024-05-10T17:17:51.167+0700] {processor.py:161} INFO - Started process (PID=82358) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2024-05-10T17:17:51.169+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-05-10T17:17:51.169+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:17:51.169+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2024-05-10T17:17:51.177+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2024-05-10T17:17:51.238+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:17:51.238+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:17:51.242+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:17:51.242+0700] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-05-10T17:17:51.251+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.086 seconds
+[2024-05-10T17:19:59.039+0700] {processor.py:161} INFO - Started process (PID=83378) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2024-05-10T17:19:59.040+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-05-10T17:19:59.040+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:19:59.040+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2024-05-10T17:19:59.049+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2024-05-10T17:19:59.113+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:19:59.112+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:19:59.118+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:19:59.118+0700] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-05-10T17:19:59.127+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.089 seconds
+[2024-05-10T17:22:11.538+0700] {processor.py:161} INFO - Started process (PID=84921) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2024-05-10T17:22:11.539+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-05-10T17:22:11.539+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:22:11.539+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2024-05-10T17:22:11.546+0700] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2024-05-10T17:22:11.613+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:22:11.613+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:22:11.618+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:22:11.618+0700] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-05-10T17:22:11.628+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.091 seconds

@@ -1,0 +1,60 @@
+[2024-05-10T17:14:51.937+0700] {processor.py:161} INFO - Started process (PID=80921) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-10T17:14:51.937+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-10T17:14:51.937+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:51.937+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-10T17:14:51.944+0700] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-10T17:14:52.051+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:52.051+0700] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_task_group
+[2024-05-10T17:14:52.056+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:52.056+0700] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_task_group
+[2024-05-10T17:14:52.059+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:52.059+0700] {override.py:1829} INFO - Created Permission View: can read on DAG:example_task_group
+[2024-05-10T17:14:52.059+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:52.059+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:14:52.064+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:52.064+0700] {dag.py:3118} INFO - Creating ORM DAG for example_task_group
+[2024-05-10T17:14:52.068+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:52.068+0700] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-05-09 00:00:00+00:00, run_after=2024-05-10 00:00:00+00:00
+[2024-05-10T17:14:52.077+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.143 seconds
+[2024-05-10T17:16:28.183+0700] {processor.py:161} INFO - Started process (PID=81691) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-10T17:16:28.184+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-10T17:16:28.185+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:16:28.185+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-10T17:16:28.191+0700] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-10T17:16:28.248+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:16:28.248+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:16:28.257+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:16:28.256+0700] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-05-09 00:00:00+00:00, run_after=2024-05-10 00:00:00+00:00
+[2024-05-10T17:16:28.265+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.084 seconds
+[2024-05-10T17:17:33.184+0700] {processor.py:161} INFO - Started process (PID=82202) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-10T17:17:33.185+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-10T17:17:33.186+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:17:33.186+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-10T17:17:33.191+0700] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-10T17:17:33.249+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:17:33.249+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:17:33.258+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:17:33.258+0700] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-05-09 00:00:00+00:00, run_after=2024-05-10 00:00:00+00:00
+[2024-05-10T17:17:33.268+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.086 seconds
+[2024-05-10T17:18:38.254+0700] {processor.py:161} INFO - Started process (PID=82739) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-10T17:18:38.255+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-10T17:18:38.255+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:18:38.255+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-10T17:18:38.261+0700] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-10T17:18:38.325+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:18:38.325+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:18:38.333+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:18:38.333+0700] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-05-09 00:00:00+00:00, run_after=2024-05-10 00:00:00+00:00
+[2024-05-10T17:18:38.342+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.089 seconds
+[2024-05-10T17:19:43.128+0700] {processor.py:161} INFO - Started process (PID=83255) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-10T17:19:43.129+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-10T17:19:43.130+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:19:43.130+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-10T17:19:43.137+0700] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-10T17:19:43.194+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:19:43.194+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:19:43.202+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:19:43.202+0700] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-05-09 00:00:00+00:00, run_after=2024-05-10 00:00:00+00:00
+[2024-05-10T17:19:43.211+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.084 seconds
+[2024-05-10T17:20:46.097+0700] {processor.py:161} INFO - Started process (PID=83924) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-10T17:20:46.099+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-10T17:20:46.099+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:20:46.099+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-10T17:20:46.105+0700] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-10T17:20:46.162+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:20:46.162+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:20:46.170+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:20:46.170+0700] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-05-09 00:00:00+00:00, run_after=2024-05-10 00:00:00+00:00
+[2024-05-10T17:20:46.179+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.084 seconds
+[2024-05-10T17:21:52.364+0700] {processor.py:161} INFO - Started process (PID=84714) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-10T17:21:52.365+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-10T17:21:52.365+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:21:52.365+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-10T17:21:52.371+0700] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-10T17:21:52.429+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:21:52.429+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:21:52.437+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:21:52.437+0700] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-05-09 00:00:00+00:00, run_after=2024-05-10 00:00:00+00:00
+[2024-05-10T17:21:52.447+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.084 seconds
+[2024-05-10T17:29:12.575+0700] {processor.py:161} INFO - Started process (PID=89256) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-10T17:29:12.575+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-05-10T17:29:12.576+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:29:12.576+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-10T17:29:12.581+0700] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2024-05-10T17:29:12.640+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:29:12.640+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:29:12.648+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:29:12.647+0700] {dag.py:3954} INFO - Setting next_dagrun for example_task_group to 2024-05-09 00:00:00+00:00, run_after=2024-05-10 00:00:00+00:00
+[2024-05-10T17:29:12.656+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.083 seconds

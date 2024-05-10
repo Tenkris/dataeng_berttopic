@@ -1,0 +1,80 @@
+[2024-05-10T17:14:39.789+0700] {processor.py:161} INFO - Started process (PID=80789) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-05-10T17:14:39.789+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-05-10T17:14:39.789+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:39.789+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-05-10T17:14:39.810+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-05-10T17:14:39.920+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:39.919+0700] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_xcom_args_with_operators
+[2024-05-10T17:14:39.924+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:39.924+0700] {override.py:1829} INFO - Created Permission View: can read on DAG:example_xcom_args_with_operators
+[2024-05-10T17:14:39.926+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:39.926+0700] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_xcom_args_with_operators
+[2024-05-10T17:14:39.932+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:39.932+0700] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_xcom_args
+[2024-05-10T17:14:39.935+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:39.935+0700] {override.py:1829} INFO - Created Permission View: can read on DAG:example_xcom_args
+[2024-05-10T17:14:39.937+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:39.937+0700] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_xcom_args
+[2024-05-10T17:14:39.937+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:39.937+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-05-10T17:14:39.942+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:39.942+0700] {dag.py:3118} INFO - Creating ORM DAG for example_xcom_args
+[2024-05-10T17:14:39.942+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:39.942+0700] {dag.py:3118} INFO - Creating ORM DAG for example_xcom_args_with_operators
+[2024-05-10T17:14:39.942+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:39.942+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-05-10T17:14:39.943+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:39.943+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-05-10T17:14:39.950+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py took 0.163 seconds
+[2024-05-10T17:16:18.268+0700] {processor.py:161} INFO - Started process (PID=81615) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-05-10T17:16:18.269+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-05-10T17:16:18.269+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:16:18.269+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-05-10T17:16:18.290+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-05-10T17:16:18.348+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:16:18.348+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-05-10T17:16:18.353+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:16:18.353+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-05-10T17:16:18.355+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:16:18.355+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-05-10T17:16:18.363+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py took 0.097 seconds
+[2024-05-10T17:17:22.311+0700] {processor.py:161} INFO - Started process (PID=82121) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-05-10T17:17:22.312+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-05-10T17:17:22.312+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:17:22.312+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-05-10T17:17:22.335+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-05-10T17:17:22.396+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:17:22.396+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-05-10T17:17:22.402+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:17:22.401+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-05-10T17:17:22.403+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:17:22.403+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-05-10T17:17:22.412+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py took 0.102 seconds
+[2024-05-10T17:18:27.173+0700] {processor.py:161} INFO - Started process (PID=82651) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-05-10T17:18:27.174+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-05-10T17:18:27.174+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:18:27.174+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-05-10T17:18:27.195+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-05-10T17:18:27.254+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:18:27.254+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-05-10T17:18:27.259+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:18:27.259+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-05-10T17:18:27.261+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:18:27.261+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-05-10T17:18:27.269+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py took 0.097 seconds
+[2024-05-10T17:19:32.056+0700] {processor.py:161} INFO - Started process (PID=83166) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-05-10T17:19:32.056+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-05-10T17:19:32.057+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:19:32.057+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-05-10T17:19:32.083+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-05-10T17:19:32.142+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:19:32.141+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-05-10T17:19:32.147+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:19:32.147+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-05-10T17:19:32.148+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:19:32.148+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-05-10T17:19:32.158+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py took 0.104 seconds
+[2024-05-10T17:20:34.142+0700] {processor.py:161} INFO - Started process (PID=83824) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-05-10T17:20:34.142+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-05-10T17:20:34.143+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:20:34.143+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-05-10T17:20:34.165+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-05-10T17:20:34.227+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:20:34.227+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-05-10T17:20:34.233+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:20:34.233+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-05-10T17:20:34.235+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:20:34.235+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-05-10T17:20:34.243+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py took 0.103 seconds
+[2024-05-10T17:21:41.412+0700] {processor.py:161} INFO - Started process (PID=84628) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-05-10T17:21:41.413+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-05-10T17:21:41.413+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:21:41.413+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-05-10T17:21:41.435+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-05-10T17:21:41.495+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:21:41.495+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-05-10T17:21:41.501+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:21:41.501+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-05-10T17:21:41.502+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:21:41.502+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-05-10T17:21:41.511+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py took 0.101 seconds
+[2024-05-10T17:22:50.631+0700] {processor.py:161} INFO - Started process (PID=85295) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-05-10T17:22:50.633+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-05-10T17:22:50.633+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:22:50.633+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-05-10T17:22:50.656+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-05-10T17:22:50.713+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:22:50.713+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-05-10T17:22:50.718+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:22:50.718+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-05-10T17:22:50.720+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:22:50.720+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-05-10T17:22:50.729+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py took 0.099 seconds
+[2024-05-10T17:29:01.569+0700] {processor.py:161} INFO - Started process (PID=89172) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-05-10T17:29:01.571+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-05-10T17:29:01.571+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:29:01.571+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-05-10T17:29:01.599+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-05-10T17:29:01.682+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:29:01.681+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-05-10T17:29:01.692+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:29:01.692+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-05-10T17:29:01.695+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:29:01.695+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-05-10T17:29:01.709+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py took 0.142 seconds

@@ -1,0 +1,67 @@
+[2024-05-10T17:14:30.919+0700] {processor.py:161} INFO - Started process (PID=80707) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-05-10T17:14:30.920+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-05-10T17:14:30.920+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:30.920+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-05-10T17:14:30.942+0700] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-05-10T17:14:31.050+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:31.050+0700] {override.py:1829} INFO - Created Permission View: can edit on DAG:tutorial_taskflow_api
+[2024-05-10T17:14:31.054+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:31.054+0700] {override.py:1829} INFO - Created Permission View: can read on DAG:tutorial_taskflow_api
+[2024-05-10T17:14:31.058+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:31.058+0700] {override.py:1829} INFO - Created Permission View: can delete on DAG:tutorial_taskflow_api
+[2024-05-10T17:14:31.059+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:31.058+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:14:31.064+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:31.064+0700] {dag.py:3118} INFO - Creating ORM DAG for tutorial_taskflow_api
+[2024-05-10T17:14:31.064+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:31.064+0700] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-05-10T17:14:31.073+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.156 seconds
+[2024-05-10T17:16:11.363+0700] {processor.py:161} INFO - Started process (PID=81558) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-05-10T17:16:11.363+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-05-10T17:16:11.364+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:16:11.364+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-05-10T17:16:11.385+0700] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-05-10T17:16:11.441+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:16:11.440+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:16:11.446+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:16:11.446+0700] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-05-10T17:16:11.456+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.094 seconds
+[2024-05-10T17:17:14.301+0700] {processor.py:161} INFO - Started process (PID=82057) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-05-10T17:17:14.302+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-05-10T17:17:14.302+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:17:14.302+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-05-10T17:17:14.325+0700] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-05-10T17:17:14.382+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:17:14.381+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:17:14.387+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:17:14.387+0700] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-05-10T17:17:14.397+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.097 seconds
+[2024-05-10T17:18:19.284+0700] {processor.py:161} INFO - Started process (PID=82584) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-05-10T17:18:19.285+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-05-10T17:18:19.285+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:18:19.285+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-05-10T17:18:19.309+0700] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-05-10T17:18:19.368+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:18:19.367+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:18:19.373+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:18:19.373+0700] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-05-10T17:18:19.382+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.100 seconds
+[2024-05-10T17:19:24.209+0700] {processor.py:161} INFO - Started process (PID=83100) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-05-10T17:19:24.210+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-05-10T17:19:24.210+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:19:24.210+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-05-10T17:19:24.232+0700] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-05-10T17:19:24.286+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:19:24.285+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:19:24.291+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:19:24.291+0700] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-05-10T17:19:24.300+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.093 seconds
+[2024-05-10T17:20:28.030+0700] {processor.py:161} INFO - Started process (PID=83776) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-05-10T17:20:28.030+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-05-10T17:20:28.031+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:20:28.031+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-05-10T17:20:28.051+0700] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-05-10T17:20:28.111+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:20:28.111+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:20:28.116+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:20:28.116+0700] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-05-10T17:20:28.125+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.097 seconds
+[2024-05-10T17:21:33.513+0700] {processor.py:161} INFO - Started process (PID=84563) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-05-10T17:21:33.514+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-05-10T17:21:33.514+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:21:33.514+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-05-10T17:21:33.536+0700] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-05-10T17:21:33.590+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:21:33.590+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:21:33.596+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:21:33.595+0700] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-05-10T17:21:33.606+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.094 seconds
+[2024-05-10T17:22:42.672+0700] {processor.py:161} INFO - Started process (PID=85229) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-05-10T17:22:42.673+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-05-10T17:22:42.673+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:22:42.673+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-05-10T17:22:42.694+0700] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-05-10T17:22:42.750+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:22:42.750+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:22:42.756+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:22:42.755+0700] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-05-10T17:22:42.765+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.094 seconds
+[2024-05-10T17:28:53.418+0700] {processor.py:161} INFO - Started process (PID=89111) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-05-10T17:28:53.419+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-05-10T17:28:53.419+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:28:53.419+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-05-10T17:28:53.442+0700] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-05-10T17:28:53.500+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:28:53.500+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:28:53.506+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:28:53.506+0700] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-05-10T17:28:53.518+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.102 seconds

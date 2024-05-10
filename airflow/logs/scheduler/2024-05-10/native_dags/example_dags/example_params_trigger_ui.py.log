@@ -1,0 +1,32 @@
+[2024-05-10T17:15:19.279+0700] {processor.py:161} INFO - Started process (PID=81143) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-05-10T17:15:19.280+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-05-10T17:15:19.280+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:19.280+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-05-10T17:15:19.306+0700] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-05-10T17:15:19.418+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:19.417+0700] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_params_trigger_ui
+[2024-05-10T17:15:19.422+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:19.422+0700] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_params_trigger_ui
+[2024-05-10T17:15:19.425+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:19.425+0700] {override.py:1829} INFO - Created Permission View: can read on DAG:example_params_trigger_ui
+[2024-05-10T17:15:19.425+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:19.425+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:15:19.430+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:19.430+0700] {dag.py:3118} INFO - Creating ORM DAG for example_params_trigger_ui
+[2024-05-10T17:15:19.430+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:19.430+0700] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-05-10T17:15:19.439+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.161 seconds
+[2024-05-10T17:16:54.176+0700] {processor.py:161} INFO - Started process (PID=81894) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-05-10T17:16:54.177+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-05-10T17:16:54.178+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:16:54.178+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-05-10T17:16:54.201+0700] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-05-10T17:16:54.269+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:16:54.269+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:16:54.274+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:16:54.274+0700] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-05-10T17:16:54.284+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.110 seconds
+[2024-05-10T17:19:04.151+0700] {processor.py:161} INFO - Started process (PID=82941) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-05-10T17:19:04.152+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-05-10T17:19:04.152+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:19:04.152+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-05-10T17:19:04.176+0700] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-05-10T17:19:04.242+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:19:04.242+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:19:04.247+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:19:04.247+0700] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-05-10T17:19:04.257+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.108 seconds
+[2024-05-10T17:21:13.190+0700] {processor.py:161} INFO - Started process (PID=84158) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-05-10T17:21:13.190+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-05-10T17:21:13.191+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:21:13.191+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-05-10T17:21:13.215+0700] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-05-10T17:21:13.280+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:21:13.280+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:21:13.286+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:21:13.285+0700] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-05-10T17:21:13.295+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.107 seconds

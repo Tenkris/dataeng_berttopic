@@ -1,0 +1,32 @@
+[2024-05-10T17:15:11.243+0700] {processor.py:161} INFO - Started process (PID=81078) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2024-05-10T17:15:11.245+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-05-10T17:15:11.245+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:11.245+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2024-05-10T17:15:11.264+0700] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2024-05-10T17:15:11.374+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:11.374+0700] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_python_operator
+[2024-05-10T17:15:11.378+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:11.378+0700] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_python_operator
+[2024-05-10T17:15:11.382+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:11.382+0700] {override.py:1829} INFO - Created Permission View: can read on DAG:example_python_operator
+[2024-05-10T17:15:11.382+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:11.382+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:15:11.387+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:11.387+0700] {dag.py:3118} INFO - Creating ORM DAG for example_python_operator
+[2024-05-10T17:15:11.388+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:11.388+0700] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-05-10T17:15:11.396+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.156 seconds
+[2024-05-10T17:16:46.190+0700] {processor.py:161} INFO - Started process (PID=81829) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2024-05-10T17:16:46.191+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-05-10T17:16:46.191+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:16:46.191+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2024-05-10T17:16:46.208+0700] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2024-05-10T17:16:46.323+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:16:46.323+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:16:46.329+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:16:46.329+0700] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-05-10T17:16:46.338+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.150 seconds
+[2024-05-10T17:18:56.189+0700] {processor.py:161} INFO - Started process (PID=82879) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2024-05-10T17:18:56.191+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-05-10T17:18:56.191+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:18:56.191+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2024-05-10T17:18:56.209+0700] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2024-05-10T17:18:56.323+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:18:56.323+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:18:56.328+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:18:56.328+0700] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-05-10T17:18:56.338+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.150 seconds
+[2024-05-10T17:21:05.311+0700] {processor.py:161} INFO - Started process (PID=84091) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2024-05-10T17:21:05.312+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-05-10T17:21:05.312+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:21:05.312+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2024-05-10T17:21:05.330+0700] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2024-05-10T17:21:05.450+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:21:05.449+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:21:05.454+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:21:05.454+0700] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-05-10T17:21:05.463+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.154 seconds

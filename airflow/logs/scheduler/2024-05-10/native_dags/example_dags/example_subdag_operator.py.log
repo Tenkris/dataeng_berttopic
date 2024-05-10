@@ -1,0 +1,102 @@
+[2024-05-10T17:14:53.968+0700] {processor.py:161} INFO - Started process (PID=80936) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-05-10T17:14:53.969+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2024-05-10T17:14:53.969+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:53.969+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-05-10T17:14:54.018+0700] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-05-10T17:14:54.090+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:54.090+0700] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_subdag_operator
+[2024-05-10T17:14:54.094+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:54.094+0700] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_subdag_operator
+[2024-05-10T17:14:54.097+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:54.097+0700] {override.py:1829} INFO - Created Permission View: can read on DAG:example_subdag_operator
+[2024-05-10T17:14:54.097+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:54.097+0700] {dag.py:3096} INFO - Sync 3 DAGs
+[2024-05-10T17:14:54.102+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:54.102+0700] {dag.py:3118} INFO - Creating ORM DAG for example_subdag_operator.section-1
+[2024-05-10T17:14:54.102+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:54.102+0700] {dag.py:3118} INFO - Creating ORM DAG for example_subdag_operator.section-2
+[2024-05-10T17:14:54.102+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:54.102+0700] {dag.py:3118} INFO - Creating ORM DAG for example_subdag_operator
+[2024-05-10T17:14:54.107+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:54.106+0700] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2024-05-10T17:14:54.107+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:54.107+0700] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-05-10T17:14:54.107+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:54.107+0700] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-05-10T17:14:54.110+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:54.110+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-05-10T17:14:54.112+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:54.112+0700] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-05-10T17:14:54.113+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:14:54.113+0700] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-05-10T17:14:54.119+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py took 0.152 seconds
+[2024-05-10T17:16:30.112+0700] {processor.py:161} INFO - Started process (PID=81706) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-05-10T17:16:30.114+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2024-05-10T17:16:30.114+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:16:30.114+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-05-10T17:16:30.163+0700] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-05-10T17:16:30.189+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:16:30.189+0700] {dag.py:3096} INFO - Sync 3 DAGs
+[2024-05-10T17:16:30.198+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:16:30.198+0700] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2024-05-10T17:16:30.200+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:16:30.200+0700] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-05-10T17:16:30.200+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:16:30.200+0700] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-05-10T17:16:30.203+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:16:30.203+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-05-10T17:16:30.204+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:16:30.204+0700] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-05-10T17:16:30.204+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:16:30.204+0700] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-05-10T17:16:30.210+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py took 0.099 seconds
+[2024-05-10T17:17:35.128+0700] {processor.py:161} INFO - Started process (PID=82220) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-05-10T17:17:35.129+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2024-05-10T17:17:35.130+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:17:35.129+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-05-10T17:17:35.177+0700] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-05-10T17:17:35.203+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:17:35.202+0700] {dag.py:3096} INFO - Sync 3 DAGs
+[2024-05-10T17:17:35.211+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:17:35.211+0700] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2024-05-10T17:17:35.212+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:17:35.212+0700] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-05-10T17:17:35.213+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:17:35.213+0700] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-05-10T17:17:35.216+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:17:35.215+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-05-10T17:17:35.217+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:17:35.217+0700] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-05-10T17:17:35.218+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:17:35.217+0700] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-05-10T17:17:35.223+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py took 0.097 seconds
+[2024-05-10T17:18:40.215+0700] {processor.py:161} INFO - Started process (PID=82754) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-05-10T17:18:40.216+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2024-05-10T17:18:40.217+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:18:40.216+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-05-10T17:18:40.264+0700] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-05-10T17:18:40.290+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:18:40.290+0700] {dag.py:3096} INFO - Sync 3 DAGs
+[2024-05-10T17:18:40.299+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:18:40.298+0700] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2024-05-10T17:18:40.300+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:18:40.300+0700] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-05-10T17:18:40.301+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:18:40.301+0700] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-05-10T17:18:40.303+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:18:40.303+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-05-10T17:18:40.305+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:18:40.305+0700] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-05-10T17:18:40.305+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:18:40.305+0700] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-05-10T17:18:40.312+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py took 0.098 seconds
+[2024-05-10T17:19:45.087+0700] {processor.py:161} INFO - Started process (PID=83271) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-05-10T17:19:45.087+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2024-05-10T17:19:45.088+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:19:45.088+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-05-10T17:19:45.136+0700] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-05-10T17:19:45.164+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:19:45.163+0700] {dag.py:3096} INFO - Sync 3 DAGs
+[2024-05-10T17:19:45.173+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:19:45.173+0700] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2024-05-10T17:19:45.175+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:19:45.175+0700] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-05-10T17:19:45.175+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:19:45.175+0700] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-05-10T17:19:45.178+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:19:45.178+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-05-10T17:19:45.180+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:19:45.180+0700] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-05-10T17:19:45.180+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:19:45.180+0700] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-05-10T17:19:45.186+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py took 0.101 seconds
+[2024-05-10T17:20:48.100+0700] {processor.py:161} INFO - Started process (PID=83941) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-05-10T17:20:48.100+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2024-05-10T17:20:48.101+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:20:48.101+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-05-10T17:20:48.151+0700] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-05-10T17:20:48.179+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:20:48.179+0700] {dag.py:3096} INFO - Sync 3 DAGs
+[2024-05-10T17:20:48.188+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:20:48.188+0700] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2024-05-10T17:20:48.190+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:20:48.190+0700] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-05-10T17:20:48.191+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:20:48.190+0700] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-05-10T17:20:48.194+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:20:48.194+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-05-10T17:20:48.196+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:20:48.195+0700] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-05-10T17:20:48.196+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:20:48.196+0700] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-05-10T17:20:48.202+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py took 0.104 seconds
+[2024-05-10T17:21:53.424+0700] {processor.py:161} INFO - Started process (PID=84722) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-05-10T17:21:53.424+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2024-05-10T17:21:53.425+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:21:53.425+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-05-10T17:21:53.473+0700] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-05-10T17:21:53.499+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:21:53.499+0700] {dag.py:3096} INFO - Sync 3 DAGs
+[2024-05-10T17:21:53.507+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:21:53.507+0700] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2024-05-10T17:21:53.509+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:21:53.509+0700] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-05-10T17:21:53.509+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:21:53.509+0700] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-05-10T17:21:53.512+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:21:53.512+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-05-10T17:21:53.514+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:21:53.514+0700] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-05-10T17:21:53.514+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:21:53.514+0700] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-05-10T17:21:53.520+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py took 0.098 seconds
+[2024-05-10T17:29:13.569+0700] {processor.py:161} INFO - Started process (PID=89264) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-05-10T17:29:13.571+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2024-05-10T17:29:13.571+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:29:13.571+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-05-10T17:29:13.618+0700] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-05-10T17:29:13.644+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:29:13.644+0700] {dag.py:3096} INFO - Sync 3 DAGs
+[2024-05-10T17:29:13.653+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:29:13.653+0700] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2024-05-10T17:29:13.655+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:29:13.655+0700] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-05-10T17:29:13.655+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:29:13.655+0700] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-05-10T17:29:13.658+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:29:13.658+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-05-10T17:29:13.660+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:29:13.660+0700] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-05-10T17:29:13.660+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:29:13.660+0700] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-05-10T17:29:13.666+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py took 0.098 seconds

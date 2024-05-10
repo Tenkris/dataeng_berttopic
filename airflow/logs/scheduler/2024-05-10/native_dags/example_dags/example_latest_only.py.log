@@ -1,0 +1,32 @@
+[2024-05-10T17:15:27.113+0700] {processor.py:161} INFO - Started process (PID=81210) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-05-10T17:15:27.113+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-05-10T17:15:27.114+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:27.114+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-05-10T17:15:27.120+0700] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-05-10T17:15:27.219+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:27.219+0700] {override.py:1829} INFO - Created Permission View: can read on DAG:latest_only
+[2024-05-10T17:15:27.223+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:27.223+0700] {override.py:1829} INFO - Created Permission View: can edit on DAG:latest_only
+[2024-05-10T17:15:27.225+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:27.225+0700] {override.py:1829} INFO - Created Permission View: can delete on DAG:latest_only
+[2024-05-10T17:15:27.226+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:27.225+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:15:27.230+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:27.230+0700] {dag.py:3118} INFO - Creating ORM DAG for latest_only
+[2024-05-10T17:15:27.234+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:27.234+0700] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-05-10 04:00:00+00:00, run_after=2024-05-10 08:00:00+00:00
+[2024-05-10T17:15:27.242+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.131 seconds
+[2024-05-10T17:17:01.255+0700] {processor.py:161} INFO - Started process (PID=81949) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-05-10T17:17:01.256+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-05-10T17:17:01.256+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:17:01.256+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-05-10T17:17:01.261+0700] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-05-10T17:17:01.316+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:17:01.316+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:17:01.324+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:17:01.324+0700] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-05-10 04:00:00+00:00, run_after=2024-05-10 08:00:00+00:00
+[2024-05-10T17:17:01.333+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.080 seconds
+[2024-05-10T17:19:11.150+0700] {processor.py:161} INFO - Started process (PID=82997) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-05-10T17:19:11.151+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-05-10T17:19:11.152+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:19:11.152+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-05-10T17:19:11.160+0700] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-05-10T17:19:11.220+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:19:11.219+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:19:11.228+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:19:11.228+0700] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-05-10 04:00:00+00:00, run_after=2024-05-10 08:00:00+00:00
+[2024-05-10T17:19:11.238+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.089 seconds
+[2024-05-10T17:21:20.359+0700] {processor.py:161} INFO - Started process (PID=84287) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-05-10T17:21:20.360+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-05-10T17:21:20.360+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:21:20.360+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-05-10T17:21:20.365+0700] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-05-10T17:21:20.422+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:21:20.422+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:21:20.431+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:21:20.431+0700] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2024-05-10 04:00:00+00:00, run_after=2024-05-10 08:00:00+00:00
+[2024-05-10T17:21:20.439+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.082 seconds

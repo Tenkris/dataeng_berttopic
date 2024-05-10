@@ -1,0 +1,32 @@
+[2024-05-10T17:15:50.480+0700] {processor.py:161} INFO - Started process (PID=81387) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-05-10T17:15:50.480+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-05-10T17:15:50.481+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:50.481+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-05-10T17:15:50.486+0700] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-05-10T17:15:50.586+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:50.586+0700] {override.py:1829} INFO - Created Permission View: can read on DAG:example_branch_labels
+[2024-05-10T17:15:50.590+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:50.590+0700] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_branch_labels
+[2024-05-10T17:15:50.592+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:50.592+0700] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_branch_labels
+[2024-05-10T17:15:50.593+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:50.593+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:15:50.597+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:50.597+0700] {dag.py:3118} INFO - Creating ORM DAG for example_branch_labels
+[2024-05-10T17:15:50.601+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:50.601+0700] {dag.py:3954} INFO - Setting next_dagrun for example_branch_labels to 2024-05-09 00:00:00+00:00, run_after=2024-05-10 00:00:00+00:00
+[2024-05-10T17:15:50.609+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.131 seconds
+[2024-05-10T17:17:59.099+0700] {processor.py:161} INFO - Started process (PID=82428) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-05-10T17:17:59.100+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-05-10T17:17:59.100+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:17:59.100+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-05-10T17:17:59.106+0700] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-05-10T17:17:59.165+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:17:59.165+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:17:59.173+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:17:59.173+0700] {dag.py:3954} INFO - Setting next_dagrun for example_branch_labels to 2024-05-09 00:00:00+00:00, run_after=2024-05-10 00:00:00+00:00
+[2024-05-10T17:17:59.182+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.085 seconds
+[2024-05-10T17:20:07.057+0700] {processor.py:161} INFO - Started process (PID=83558) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-05-10T17:20:07.058+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-05-10T17:20:07.058+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:20:07.058+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-05-10T17:20:07.064+0700] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-05-10T17:20:07.122+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:20:07.122+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:20:07.130+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:20:07.130+0700] {dag.py:3954} INFO - Setting next_dagrun for example_branch_labels to 2024-05-09 00:00:00+00:00, run_after=2024-05-10 00:00:00+00:00
+[2024-05-10T17:20:07.139+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.083 seconds
+[2024-05-10T17:22:19.585+0700] {processor.py:161} INFO - Started process (PID=85034) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-05-10T17:22:19.585+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-05-10T17:22:19.586+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:22:19.586+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-05-10T17:22:19.592+0700] {processor.py:840} INFO - DAG(s) 'example_branch_labels' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-05-10T17:22:19.652+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:22:19.652+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:22:19.661+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:22:19.661+0700] {dag.py:3954} INFO - Setting next_dagrun for example_branch_labels to 2024-05-09 00:00:00+00:00, run_after=2024-05-10 00:00:00+00:00
+[2024-05-10T17:22:19.670+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.087 seconds

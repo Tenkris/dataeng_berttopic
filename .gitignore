@@ -1,0 +1,11 @@
+# ignore all file in folder data 
+data/*
+#ignore __pycache__ folder
+__pycache__/*
+#ignore all file in folder model
+model/*
+#ignore all file in folder output
+output/*
+
+#ignore all .db file
+*.db

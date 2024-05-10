@@ -1,0 +1,32 @@
+[2024-05-10T17:15:21.160+0700] {processor.py:161} INFO - Started process (PID=81160) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-05-10T17:15:21.161+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-05-10T17:15:21.161+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:21.161+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-05-10T17:15:21.185+0700] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-05-10T17:15:21.289+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:21.289+0700] {override.py:1829} INFO - Created Permission View: can read on DAG:example_nested_branch_dag
+[2024-05-10T17:15:21.293+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:21.293+0700] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_nested_branch_dag
+[2024-05-10T17:15:21.296+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:21.296+0700] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_nested_branch_dag
+[2024-05-10T17:15:21.297+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:21.297+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:15:21.303+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:21.302+0700] {dag.py:3118} INFO - Creating ORM DAG for example_nested_branch_dag
+[2024-05-10T17:15:21.307+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:21.307+0700] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-05-09 00:00:00+00:00, run_after=2024-05-10 00:00:00+00:00
+[2024-05-10T17:15:21.316+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.157 seconds
+[2024-05-10T17:16:56.194+0700] {processor.py:161} INFO - Started process (PID=81911) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-05-10T17:16:56.195+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-05-10T17:16:56.195+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:16:56.195+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-05-10T17:16:56.218+0700] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-05-10T17:16:56.276+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:16:56.276+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:16:56.286+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:16:56.286+0700] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-05-09 00:00:00+00:00, run_after=2024-05-10 00:00:00+00:00
+[2024-05-10T17:16:56.296+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.104 seconds
+[2024-05-10T17:19:06.112+0700] {processor.py:161} INFO - Started process (PID=82958) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-05-10T17:19:06.113+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-05-10T17:19:06.114+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:19:06.114+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-05-10T17:19:06.138+0700] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-05-10T17:19:06.193+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:19:06.193+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:19:06.204+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:19:06.204+0700] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-05-09 00:00:00+00:00, run_after=2024-05-10 00:00:00+00:00
+[2024-05-10T17:19:06.213+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.102 seconds
+[2024-05-10T17:21:15.196+0700] {processor.py:161} INFO - Started process (PID=84175) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-05-10T17:21:15.197+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-05-10T17:21:15.197+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:21:15.197+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-05-10T17:21:15.220+0700] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-05-10T17:21:15.277+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:21:15.276+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:21:15.286+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:21:15.286+0700] {dag.py:3954} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-05-09 00:00:00+00:00, run_after=2024-05-10 00:00:00+00:00
+[2024-05-10T17:21:15.296+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.102 seconds

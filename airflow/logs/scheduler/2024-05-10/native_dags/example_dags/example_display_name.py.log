@@ -1,0 +1,32 @@
+[2024-05-10T17:15:36.313+0700] {processor.py:161} INFO - Started process (PID=81275) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2024-05-10T17:15:36.314+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-05-10T17:15:36.314+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:36.314+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2024-05-10T17:15:36.336+0700] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2024-05-10T17:15:36.432+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:36.432+0700] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_display_name
+[2024-05-10T17:15:36.436+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:36.436+0700] {override.py:1829} INFO - Created Permission View: can read on DAG:example_display_name
+[2024-05-10T17:15:36.439+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:36.439+0700] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_display_name
+[2024-05-10T17:15:36.439+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:36.439+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:15:36.444+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:36.444+0700] {dag.py:3118} INFO - Creating ORM DAG for example_display_name
+[2024-05-10T17:15:36.445+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:36.445+0700] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-05-10T17:15:36.452+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.140 seconds
+[2024-05-10T17:17:45.037+0700] {processor.py:161} INFO - Started process (PID=82304) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2024-05-10T17:17:45.038+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-05-10T17:17:45.038+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:17:45.038+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2024-05-10T17:17:45.060+0700] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2024-05-10T17:17:45.118+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:17:45.118+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:17:45.123+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:17:45.123+0700] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-05-10T17:17:45.132+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.097 seconds
+[2024-05-10T17:19:53.014+0700] {processor.py:161} INFO - Started process (PID=83330) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2024-05-10T17:19:53.015+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-05-10T17:19:53.015+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:19:53.015+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2024-05-10T17:19:53.037+0700] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2024-05-10T17:19:53.095+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:19:53.095+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:19:53.100+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:19:53.100+0700] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-05-10T17:19:53.110+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.098 seconds
+[2024-05-10T17:22:05.431+0700] {processor.py:161} INFO - Started process (PID=84821) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2024-05-10T17:22:05.432+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-05-10T17:22:05.432+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:22:05.432+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2024-05-10T17:22:05.454+0700] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2024-05-10T17:22:05.510+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:22:05.509+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:22:05.515+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:22:05.515+0700] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-05-10T17:22:05.526+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.098 seconds

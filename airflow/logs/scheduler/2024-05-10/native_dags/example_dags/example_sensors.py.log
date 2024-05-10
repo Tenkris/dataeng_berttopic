@@ -1,0 +1,32 @@
+[2024-05-10T17:15:07.205+0700] {processor.py:161} INFO - Started process (PID=81048) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-05-10T17:15:07.206+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-05-10T17:15:07.206+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:07.206+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-05-10T17:15:07.215+0700] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-05-10T17:15:07.335+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:07.334+0700] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_sensors
+[2024-05-10T17:15:07.339+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:07.339+0700] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_sensors
+[2024-05-10T17:15:07.342+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:07.342+0700] {override.py:1829} INFO - Created Permission View: can read on DAG:example_sensors
+[2024-05-10T17:15:07.342+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:07.342+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:15:07.348+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:07.348+0700] {dag.py:3118} INFO - Creating ORM DAG for example_sensors
+[2024-05-10T17:15:07.348+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:15:07.348+0700] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-05-10T17:15:07.356+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.152 seconds
+[2024-05-10T17:16:43.010+0700] {processor.py:161} INFO - Started process (PID=81811) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-05-10T17:16:43.011+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-05-10T17:16:43.012+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:16:43.012+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-05-10T17:16:43.021+0700] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-05-10T17:16:43.085+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:16:43.085+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:16:43.089+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:16:43.089+0700] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-05-10T17:16:43.100+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.091 seconds
+[2024-05-10T17:18:53.225+0700] {processor.py:161} INFO - Started process (PID=82854) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-05-10T17:18:53.227+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-05-10T17:18:53.227+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:18:53.227+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-05-10T17:18:53.238+0700] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-05-10T17:18:53.304+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:18:53.304+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:18:53.308+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:18:53.308+0700] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-05-10T17:18:53.317+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.093 seconds
+[2024-05-10T17:21:01.128+0700] {processor.py:161} INFO - Started process (PID=84052) to work on /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-05-10T17:21:01.129+0700] {processor.py:830} INFO - Processing file /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-05-10T17:21:01.129+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:21:01.129+0700] {dagbag.py:545} INFO - Filling up the DagBag from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-05-10T17:21:01.140+0700] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-05-10T17:21:01.206+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:21:01.206+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-10T17:21:01.211+0700] {logging_mixin.py:188} INFO - [2024-05-10T17:21:01.211+0700] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-05-10T17:21:01.220+0700] {processor.py:183} INFO - Processing /opt/anaconda3/envs/kafka_project/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.095 seconds
