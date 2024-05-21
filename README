@@ -1,9 +1,20 @@
+Got it! Here is the text formatted for copying into a README file without code blocks, so it can be easily copied as a script:
+
+---
+
 # Project README
+
+This repository provides instructions to set up Apache Airflow and Kafka using Docker.
+
+## Prerequisites
+
+- Python installed on your machine.
+- Docker installed on your machine.
 
 ## Setup Apache Airflow
 
 1. Install Apache Airflow using pip:
-   ```bash
+   ```
    pip install apache-airflow
    ```
 
@@ -39,7 +50,12 @@
    ```
    docker-compose up -d
    ```
-
    This command will start Kafka and other services defined in the `docker-compose.yml` file in detached mode.
 
-Feel free to reach out if you encounter any issues or have any questions!
+## Troubleshooting and Support
+
+If you encounter any issues or have any questions, feel free to reach out!
+
+---
+
+You can now copy this text directly into your README file.
