@@ -3,7 +3,7 @@
 ## Setup Apache Airflow
 
 1. Install Apache Airflow using pip:
-   ```
+   ```bash
    pip install apache-airflow
    ```
 
